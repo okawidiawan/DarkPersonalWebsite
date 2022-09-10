@@ -2,7 +2,19 @@
 module.exports = {
   content: ["index.html"],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      padding: "16px",
+    },
+
+    extend: {
+      fontFamily: {
+        inter: ["Inter"],
+      },
+      colors: {
+        dark: "#1E1F2B",
+      },
+    },
   },
   plugins: [],
 };
